@@ -1,0 +1,151 @@
+.pokemon-info {
+  display: flex;
+  align-items: center;
+  margin: 2rem 4rem 2rem 4rem;
+}
+
+.pokemon-info > * {
+  flex-basis: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 36rem;
+  width: 42rem;
+  background: linear-gradient(
+    0deg,
+    rgba(225, 224, 240, 1) 40%,
+    rgba(240, 35, 30, 1) 100%
+  );
+  border-radius: 50%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  cursor: grab;
+  perspective: 2000;
+}
+
+.prev,
+.next {
+  font-size: 2rem;
+  cursor: pointer;
+  max-width: 5rem;
+}
+
+.card {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 99;
+  pointer-events: none;
+}
+
+.info {
+  margin-right: 1rem;
+  height: auto;
+  width: auto;
+  text-align: center;
+}
+
+.card img {
+  user-select: none;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+}
+
+.type {
+  padding: 0 1rem;
+  border-radius: 8px;
+  font-weight: 300;
+  background-color: #cfcfcf;
+  margin-left: 0.5rem;
+  color: white;
+}
+
+.rock {
+  background-color: rgb(148, 81, 81);
+}
+.ghost {
+  background-color: rgb(247, 247, 247);
+}
+.electric {
+  background-color: rgb(255, 255, 161);
+}
+.bug {
+  background-color: #f6d6a7;
+}
+.poison {
+  background-color: #e0a7f6;
+  /* box-shadow: 0 0 15px 5px rgba(245, 132, 255, 0.5); */
+}
+.normal {
+  background-color: #686868;
+}
+
+.steel {
+  background-color: #A8B0B2;
+}
+.fairy {
+  background-color: rgba(255, 192, 203, 0.863);
+}
+.fire {
+  background-color: #ff7979;
+  /* box-shadow: 0 0 15px 5px rgba(255, 41, 41, 0.5); */
+}
+.grass {
+  background-color: #a7ffa3;
+  /* box-shadow: 0 0 15px 5px rgba(113, 255, 125, 0.5); */
+}
+.water {
+  background-color: #90dbf4;
+  /* box-shadow: 0 0 15px 5px rgba(0, 111, 255, 0.5); */
+}
+.ground {
+  background-color: #ddb892;
+}
+
+.ghost {
+  background-color: rgba(156, 156, 156, 0.8);
+}
+.ice {
+  background-color: #1a9fec;
+}
+
+.flying {
+  background: linear-gradient(
+    0deg,
+    rgba(155, 38, 209, 0.507) 20%,
+    rgb(59, 194, 212) 100%
+  );
+}
+
+.dragon {
+  background: linear-gradient(
+    0deg,
+    rgb(56, 56, 56) 10%,
+    rgba(209, 38, 38, 0.507) 100%
+  );
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  height: 30rem;
+  width: 30rem;
+  flex-wrap: wrap;
+  margin-left: 1rem;
+  align-items: center;
+}
+
+.circle-stats {
+  display: block;
+  align-items: center;
+  text-align: center;
+  width: auto;
+}
+
+button {
+  max-width: 5rem;
+}

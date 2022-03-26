@@ -1,0 +1,11 @@
+.pokemon-evolution {
+  display: flex;
+  justify-content: center;
+}
+
+.echain {
+  font-weight: 400;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.8);
+  margin: 0;
+}

@@ -1,0 +1,44 @@
+.pokemon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  margin: 2rem 0 2rem 0;
+  padding: 0.5rem;
+  height: 2.5rem;
+  width: 20rem;
+  font: inherit;
+}
+
+.search button {
+  margin-left: 0.5rem;
+  height: 2.5rem;
+  width: 5rem;
+  font: inherit;
+}
+
+.name {
+  font-weight: 400;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.type {
+  margin: 2rem 0 0 0;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+}
