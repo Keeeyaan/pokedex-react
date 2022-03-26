@@ -1,9 +1,12 @@
 {
+  "homepage": "https://Keeeyaan.github.io/pokedex-react",
   "name": "vite-react",
   "private": true,
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -16,6 +19,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.7",
+    "gh-pages": "^3.2.3",
     "vite": "^2.8.0"
   },
   "main": "vite.config.js",
